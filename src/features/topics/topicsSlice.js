@@ -1,4 +1,6 @@
-import{ CreateSlice, createSlice } from '@reduxjs/toolkit';
+import{ createSlice } from '@reduxjs/toolkit';
+
+
 
 
 const initialState ={
@@ -23,3 +25,4 @@ const topicsSlice = createSlice({
 
 export const {addTopic} = topicsSlice.actions;
 export default topicsSlice.reducer;
+export const selectTopics = state => state.topics.topics;
