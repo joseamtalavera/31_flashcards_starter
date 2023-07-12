@@ -17,7 +17,7 @@ export default function NewTopicForm() {
   const [icon, setIcon] = useState("");
   const history = useHistory();
   const dispatch = useDispatch();
-  const topics = useSelector(selectTopics);
+  //const topics = useSelector(selectTopics);
   
 
 
