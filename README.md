@@ -1,4 +1,4 @@
-# To Run
+# Flash Card Project
 
 Run `npm start` in the project root and the app will be available on port 3000.
 
